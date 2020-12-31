@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Quicksand:wght@400;600;700&family=Rock+Salt&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f4f4;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Satisfy", cursive;
+  display: block;
+  margin: 20px;
+}
+
+.logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #cc7351;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.logo span {
+  color: #ff4646;
+  font-size: 1.1rem;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar {
+  color: #cc7351;
+  font-family: "Libre Baskerville", serif;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+header .navbar a {
+  padding: 40px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #cc7351;
+  font-weight: 800;
+}
+
+header .navbar a:hover {
+  background: #ffd56b;
+}
+
+header .navbar i {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.intro {
+  width: 100%;
+  padding: 100px 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro .txt {
+  width: 100%;
+}
+
+.intro .txt .heading {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #4e8d7c;
+}
+
+.intro .txt .heading span {
+  font-size: 2.2rem;
+  color: #ff4646;
+}
+
+.intro .txt .heading p {
+  display: block;
+  margin-bottom: 80px;
+}
+
+.intro .txt .heading a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #fdb827;
+  color: #4e8d7c;
+  background: #fdb827;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  margin-left: 100px;
+}
+
+.intro .txt .heading a:hover {
+  background: #ffd56b;
+  color: #9dab86;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .splide {
+  width: 100%;
+}
+
+.container .splide .splide__track {
+  padding: 30px;
+}
+
+.container .splide .splide__track .splide__list {
+  padding: 30px;
+  cursor: pointer;
+}
+
+.container .splide .splide__track .splide__list .splide__slide {
+  border: 1px solid #cc7351;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.container .splide .splide__track .splide__list .splide__slide img {
+  width: 100%;
+  height: 300px;
+}
+
+.container .splide .splide__track .splide__list .splide__slide .texting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ee9595;
+  width: 100%;
+  height: 100%;
+  font-family: "Libre Baskerville", serif;
+}
+
+.container .splide .splide__track .splide__list .splide__slide .texting p {
+  font-size: 20px;
+}
+
+.container .splide .splide__track .splide__list .splide__slide .texting span {
+  font-size: 25px;
+}
+
+.splide__arrows button {
+  font-size: 20px;
+}
+
+.splide__arrows button i {
+  color: #825959;
+}
+
+#deal {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#deal .list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+#deal .list .card {
+  width: 250px;
+  height: auto;
+  border: 1px solid #ff4646;
+  -webkit-box-shadow: 10px 10px 10px #d68060;
+          box-shadow: 10px 10px 10px #d68060;
+  margin: 30px;
+  cursor: pointer;
+}
+
+#deal .list .card img {
+  width: 100%;
+  height: 200px;
+}
+
+#deal .list .card .txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  background: #ffd66b;
+}
+
+#deal .list .card .txt .price {
+  margin-top: 20px;
+}
+
+#deal .list .card .txt .price span {
+  font-size: 2rem;
+  color: #ff4646;
+}
+
+#deal .list .card .txt .cart {
+  font-family: "Libre Baskerville", serif;
+}
+
+#deal .list .card .txt .cart i {
+  margin-top: 20px;
+  cursor: pointer;
+  color: #6e6d6d;
+}
+
+#deal .list .card .txt .cart span {
+  font-family: "Libre Baskerville", serif;
+  color: #6e6d6d;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#deal .list .card .txt .cart span:hover {
+  text-transform: underscore;
+  color: #ff8585;
+}
+
+#deal .list .card:hover .name {
+  color: #fff5c0;
+}
+
+.contact-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 20px;
+}
+
+.contact-section .contacts {
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.contact-section .contacts .contact {
+  width: 400px;
+}
+
+.contact-section .contacts .contact i {
+  color: #28df99;
+  margin-bottom: 20px;
+}
+
+.contact-section .contacts .contact em {
+  font-family: "Quicksand", sans-serif;
+  color: #290001;
+  font-size: 17px;
+}
+
+form {
+  width: 100%;
+}
+
+form input {
+  width: 90%;
+  height: 35px;
+  margin: 5px 0;
+  border: 1px solid #28df99;
+  background: #28df99;
+  border-radius: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+  cursor: pointer;
+}
+
+form button {
+  padding: 7px 10px;
+  border-radius: 20px;
+  background-color: #28df99;
+  border: 1px solid #28df99;
+  margin-left: 150px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: #f5f4f4;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: 2ec1ac;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  background-color: #111111;
+  color: #f5f4f4;
+}
+
+@media screen and (max-width: 625px) {
+  body {
+    font-size: 12px;
+  }
+  .navbar a {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .navbar i {
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  .intro .txt .heading p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .intro .txt .heading a {
+    padding: 3px 6px;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  svg {
+    width: 200px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
